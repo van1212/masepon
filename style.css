@@ -69,7 +69,10 @@ html {
 }
 .footer > i {
     color: #222;
-    font-size: 50px;
-    font-weight: 100;
-    text-border: 2px solid white;
+    border: 2px;
+    padding: 5px;
+    display: inline-block;
+    border-color: chartreuse;
+    font-size: 20px;
 }
+
