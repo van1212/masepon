@@ -1,40 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" 
-        rel="stylesheet">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-<title>EVAN KRISNA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cyberpunk Linktree</title>
+  <style>
+    body {
+      background: radial-gradient(ellipse at bottom, #0d0d0d 0%, #000000 100%);
+      font-family: 'Orbitron', sans-serif;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+    .profile {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .profile img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid #ff00ff;
+      object-fit: cover;
+      box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+      font-size: 28px;
+      margin: 10px 0;
+      color: #00ffff;
+      text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    }
+
+    .profile p {
+      font-size: 14px;
+      color: #ccc;
+      text-shadow: 0 0 5px #ff00ff;
+    }
+
+    .links {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .link {
+      background: rgba(255, 0, 255, 0.1);
+      padding: 15px 25px;
+      text-align: center;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 700;
+      color: #00ffff;
+      border: 2px solid #ff00ff;
+      box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(5px);
+    }
+
+    .link:hover {
+      background: rgba(0, 255, 255, 0.2);
+      color: #ff00ff;
+      border-color: #00ffff;
+      box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
+      transform: translateY(-5px) scale(1.05);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #666;
+      text-shadow: 0 0 5px #ff00ff;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-    <div class="container animate__animated animate__zoomIn">
-        <!-- profile -->
-         <div class="profile">
-            <img src="preman.jpg" alt="error image" class="animate__animated animate__pulse animate__infinite" />
-        <p class="animate__animated animate__fadeInDownBig">Yen WANI ORA WEDI, Yen WEDI ORA MUNGKIN!!</p>
-    </div>
-    
-    <!-- linktree -->
-    <div class="link">
-        <a href="https://instagram.com/vankris02" target="_blank" class="animate__animated animate__bounceInLeft"> instagram</a>
-        <a href="https://t.me/@hadeuh22" target="_blank"class="animate__animated animate__bounceInLeft animate__delay-1s">telegram</a>
-        <a href="https://facebook.com/evankrisna.pratama" target="_blank"class="animate__animated animate__bounceInLeft animate__delay-2s">facebook</a>
-        <a href="https://x.com/0210vankris?s=11" target="_blank" class="animate__animated animate__bounceInLeft animate__delay-3s">x</a>
-    </div>
-    
-    <!-- footer -->
-    <div class="footer text-outline animate__animated animate__bounceInUp animate__delay-3s">
-        <i>made boldy!!</i>
-    </div>
+
+<div class="profile">
+  <img src="EK.jpg" alt="Profile Picture">
+  <h1>EVAN KRISNA</h1>
+  <p>YEN WANI ORA WEDI. YEN WEDI ORA MUNGKIN!!</p>
+</div>
+
+<div class="links">
+  <a class="link" href="https://t.me/ultraaboy0" target="_blank">Telegram</a>
+  <a class="link" href="https://www.instagram.com/vankris02?igsh=Y3kxczFyczhyczl6&utm_source=qr" target="_blank">Instagram</a>
+  <a class="link" href="https://facebook.com/evankrisna.pratama" target="_blank">Facebook</a>
+  <a class="link" href="https://x.com/0210vankris?s=11" target="_blank">X</a>
+</div>
+
+<footer>
+  &copy; 2025 evankris.ek@gmail.com
+</footer>
+
 </body>
 </html>
